@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>자라섬 캠핑장</title>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#main_bar").load("main_bar.html");
+		$("#footer").load("footer.html");
+	});
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/main_css.css">
+
+</head>
+
+<body>
+
+	<header>
+		<div id="main_bar"></div>
+	</header>
+
+	<!-- contents -->
+	<div id="contents">
+		<div>
+			<h3>시설이용요금</h3>
+			<ul class="litype">
+				<li>성 수 기 : 매년 7월~8월 / 비수기 : 성수기 외의 기간</li>
+				<li>주말·공휴일 : 금요일, 토요일, 관공서의 공휴일에 관한 규정 제2조에 따른 공휴일 전일</li>
+				<li>주 중 : 주말·공휴일 외의 날</li>
+			</ul>
+		</div>
+
+		<!--테이블-->
+
+		<div>
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th scope="col" rowspan="2" colspan="2">시설명</th>
+						<th scope="col" rowspan="2">종류</th>
+						<th scope="col" rowspan="2">사용기준</th>
+						<th scope="col" rowspan="2">성수기</th>
+						<th scope="col" colspan="2">비수기</th>
+						<th scope="col" rowspan="2">비고</th>
+					</tr>
+					<tr>
+						<td>주말<br>공휴일
+						</td>
+						<td>평일</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="2" colspan="2">숙박시설</td>
+						<td>캐라반B(4인용)13m2</td>
+						<td>1일</td>
+						<td>120,000</td>
+						<td>100,000</td>
+						<td>60,000</td>
+						<td rowspan="2">
+							<ul class="litype_02">
+								<li>퇴실시간 초과 시 추가요금</li>
+								<li>1시간~2l시간까지 10,000원</li>
+								<li>4시간까지 20,000원</li>
+								<li>4시간이후 1일 사용료 추가</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>캐라반C(6인용)26m2</td>
+						<td>1일</td>
+						<td>180,000</td>
+						<td>160,000</td>
+						<td>110,000</td>
+					</tr>
+					<tr>
+						<td rowspan="2">캠핑시설</td>
+						<td>캐라반사이트A/B</td>
+						<td>전체면적(13.5*10m)<br />텐트설치(6.5*10m)
+						</td>
+						<td>1개소/<br />1대당
+						</td>
+						<td>25,000</td>
+						<td>25,000</td>
+						<td>20,000</td>
+						<td>전기사용가능</td>
+					</tr>
+					<tr>
+						<td>오토캠핑장</td>
+						<td>전체면적(6*8m)<br />평상(2.5*3m)<br />텐트설치(45*6m)
+						</td>
+						<td>1개소/<br />1대당
+						</td>
+						<td>15,000</td>
+						<td>15,000</td>
+						<td>10,000</td>
+						<td>전기사용안됨</td>
+					</tr>
+					<tr>
+						<td colspan="2">회의실 지상2층<br />(수상클럽하우스)
+						</td>
+						<td>952m2</td>
+						<td>-</td>
+						<td colspan="3">임대업체</td>
+						<td>매점 및 카페</td>
+					</tr>
+
+				</tbody>
+			</table>
+		</div>
+
+
+
+		
+
+		<!--테이블-->
+		
+		<div class="tbtype_type2">
+			
+			<strong>자전거 사용료</strong>
+			
+			<table class="table table-bordered">
+				<tr>
+					<th>구분</th>
+					<th>1인용</th>
+					<th>2인용</th>
+					<th>전기자전거</th>
+					<th>가족용</th>
+					<th>비고</th>
+				</tr>
+				<tr>
+					<td>금액/시간</td>
+					<td>3,000원/30분</td>
+					<td>5,000원/30분</td>
+					<td>8,000원/30분</td>
+					<td>10,000원/30분</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		<!--테이블-->
+
+
+		<!--테이블-->
+		<strong>수영장 사용료</strong>
+		<div class="tbtype_type2">
+			<table class="table table-bordered">
+				<tr>
+					<th colspan="2">구분</th>
+					<th>어린이<br />(3세~12세)
+					</th>
+					<th>어린이<br />(13세~18세)
+					</th>
+					<th>어른<br />(19세이상)
+					</th>
+					<th>비고</th>
+				</tr>
+				<tr>
+					<td rowspan="2">사용료</td>
+					<td>일반</td>
+					<td>4,000원</td>
+					<td>5,000원</td>
+					<td>6,000원</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>가평군민</td>
+					<td>2,000원</td>
+					<td>3,000원</td>
+					<td>4,000원</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		<!--테이블-->
+		<strong>시설사용료 환불기준</strong>
+		<p>
+			<strong>[소비자분쟁 해결기준 중 숙박업에 관한 기준](공정거래 위원회 고시 제 2015-18호)</strong>
+		</p>
+		<br /> <strong>자라섬 캠핑장 성수기 사용료 환불 기준 (7,8월)</strong>
+
+		<!--테이블-->
+		<div class="tbtype_type2">
+			<table class="table table-bordered">
+				<tr>
+					<th>기 준</th>
+					<th>사용예정일<br />10일전까지 취소
+					</th>
+					<th>사용예정일<br />7일전까지 취소
+					</th>
+					<th>사용예정일<br />5일전까지 취소
+					</th>
+					<th>사용예정일<br />3일전까지 취소
+					</th>
+					<th>사용예정일<br />1일전 또는 당일 오전 12시 이전 취소
+					</th>
+				</tr>
+				<tr>
+					<td>성수기 주중</td>
+					<td>100%</td>
+					<td>90%</td>
+					<td>70%</td>
+					<td>50%</td>
+					<td>20%</td>
+				</tr>
+				<tr>
+					<td>성수기 주말<br />(금,토,공휴일 전일)
+					</td>
+					<td>100%</td>
+					<td>80%</td>
+					<td>60%</td>
+					<td>40%</td>
+					<td>10%</td>
+				</tr>
+			</table>
+		</div>
+		<!--테이블-->
+
+
+
+		<strong>자라섬 캠핑장 비수기 사용료 환불 기준</strong>
+
+		<!--테이블-->
+		<div class="tbtype type2">
+			<table class="table table-bordered">
+				<tr>
+					<th>기 준</th>
+					<th>사용예정일<br />2일전까지 취소
+					</th>
+					<th>사용예정일<br />1일전까지 취소
+					</th>
+					<th>사용예정일<br />당일 오전12시 이전 취소
+					</th>
+				</tr>
+				<tr>
+					<td>비수기 주중</td>
+					<td>100%</td>
+					<td>90%</td>
+					<td>80%</td>
+				</tr>
+				<tr>
+					<td>비수기 주말<br />금,토, 공휴일 전일)
+					</td>
+					<td>100%</td>
+					<td>80%</td>
+					<td>70%</td>
+				</tr>
+				<tr>
+					<td>기타</td>
+					<td>예약·선납된 경우로서<br />천재지변 등으로 인하여 시설사용이 불가능한 경우
+					</td>
+					<td>이용이 불가한 경우</td>
+					<td>계약금 환급</td>
+				</tr>
+				<tr>
+					<td colspan="4"><br />
+						<p>※ 고객정보가 정확하지 않을 경우 환불기간이 지연될 수 있습니다.</p> <br />
+						<p>※ 환불입금 소요일은 은행영업일 기준 최대 5일입니다.<br/>(신용카드결재(5일),무통장입금결재(1~2일)소요됨.)</p> <br />
+						<p>※ 위 사항은 예약 후 요금 선납한 경우에 해당하며,<br/> 당일 취소는 12시까지 유선 또는 인터넷 취소 요청이
+							없을 시 사용한 것으로 본다.</p> <br /></td>
+				</tr>
+
+			</table>
+			
+		</div>
+		<!--테이블-->
+	</div>
+	<!-- //컨텐츠입력 -->
+
+	<footer>
+		<div id="footer"></div>
+	</footer>
+
+</body>
+</html>

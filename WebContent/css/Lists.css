@@ -1,0 +1,61 @@
+@charset "EUC-KR";
+
+*{
+	font-family: ¸¼Àº °íµñ; 
+    font-size: 12pt;
+    font-align:left;
+    margin: 1px;
+    padding: 2px
+}
+
+
+.List{
+	width: 900px;
+	margin: 20px;
+	margin-top: 10px;
+	padding: 2px;
+	align: center;
+	
+	}
+
+.List td{
+	text-align: center;
+	vertical-align: center;
+	line-height: 150%;
+	
+}
+.List th{
+	padding: 2px;
+	font-size: 13pt;
+	font-weight: bold;
+	vertical-align: center;
+	text-align: center;
+	color: #ffffff;
+	background-color: #304b78;
+}
+
+.td1{
+	
+	text-align: right;
+	
+}
+
+hr{
+	width:100%;
+	border: solid 3px;
+	color:#585858;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contents{
+	
+	width:900px;
+	height:500px;
+	align:center;
+	margin:10px;
+	margin-top:20px;
+	padding:10px;
+	
+	
+}

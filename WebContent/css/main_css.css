@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,700&display=swap&subset=korean');
+
+body {
+   
+}
+
+
+#contents {
+    margin: 20px 10%;
+    padding: 20px;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+#contents .contentsTop .mini_nav {
+    float: right;
+    font-size: 12px;
+    display: block;
+}
+
+#contents strong {
+	display : inline-block;
+	padding : 20px;
+}
+
+#contents table {
+	text-align: center;
+/* 	border-spacing:10px; */
+}

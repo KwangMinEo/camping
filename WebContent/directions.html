@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="EUC-KR">
+    <title>directions</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#main_bar").load("main_bar.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/main_css.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="main_bar"></div>
+    </header>
+
+<div id="contents">
+    <div class="contentsTop">
+        <h2>오시는길</h2>
+        <div>
+            캠핑장안내 &gt; <strong>오시는길</strong>
+        </div>
+    </div>
+
+    <div class="content">
+        <Strong>약도보기</Strong><br/>
+
+        <a href="https://map.kakao.com/?urlX=614335&urlY=1200182&urlLevel=5&map_type=TYPE_MAP&map_hybrid=false" target="_blank"> <img width="804" height="410" src="https://map2.daum.net/map/mapservice?FORMAT=PNG&SCALE=10&MX=614335&MY=1200182&S=0&IW=504&IH=310&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo" style="border: 1px solid #ccc">
+        </a>
+
+        <div class="hide" style="overflow: hidden; padding: 7px; border: 1px solid #dfdfdf; border-color: rgba(0, 0, 0, .1); border-radius: 0 0 2px 2px; background-color: #f9f9f9; width: 804px;">
+            <strong style="float: left;"> <img src="img/logo_kakaomap.png" width="72" height="16" alt="카카오맵">
+            </strong>
+            <div style="float: right; position: relative">
+                <a style="font-size: 12px; text-decoration: none; float: left; height: 15px; padding-top: 1px; line-height: 15px; color: #000" target="_blank" href="https://map.kakao.com/?urlX=614335&urlY=1200182&urlLevel=5&map_type=TYPE_MAP&map_hybrid=false">
+                   <Strong> *경기도 가평군.읍 자라섬로 60번지 자라섬캠핑장 안내소 | 지도 크게 보기 </Strong></a>
+            </div>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th align="center">
+                        <Strong>시외버스</Strong>
+                    </th>
+                    <th align="center">
+                        <Strong>기차</Strong>
+                    </th>
+                </tr>
+                <tr>
+                    <td width="402">
+                        <ul>
+                            <li>서울상봉동/구의동-가평/춘천행 버스<br />-가평터미널 하차(순환버스 / 도보15분)</li><br />
+                            <li>가평읍 시내 - 택시 승차(10분 소요)<br />-자라섬캠핑장 안내소</li><br />
+                            <li>잠실역 앞 : 7000번 버스탑승-가평하차<br />-자라섬캠핑장(도보15분)</li>
+                        </ul>
+                    </td>
+                    <td width="402">
+                        <ul>
+                            <li>청량리역, 성북역 - 경춘선열차(가평/청평/춘천행)<br /> - 가평역 하차 - 자라섬캠핑장(도보20분)</li><br />
+                            <li>가평읍 시내 - 택시 승차(10분 소요)<br />-자라섬캠핑장 안내소</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+    <footer>
+        <div id="footer"></div>
+    </footer>
+</body></html>
